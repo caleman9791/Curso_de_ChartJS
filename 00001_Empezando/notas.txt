@@ -1,0 +1,5 @@
+Empezando
+
+¡Comencemos a usar Chart.js!
+
+Primero, necesitamos tener un lienzo en nuestra página. Se recomienda darle al gráfico su propio contenedor para la capacidad de respuesta.
