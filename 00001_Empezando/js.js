@@ -45,16 +45,16 @@
 
  for (var i = 0; i < btn_rango.length; i++) {
 
-   btn_rango[i].addEventListener("change", function() {
-     let indice;
-
-     for (var j = 0; j < btn_rango.length; j++) {
-       if (this == btn_rango[j]) {
-         indice = j;
+   btn_rango[i].addEventListener("change",
+     function() {
+       let indice;
+       for (var j = 0; j < btn_rango.length; j++) {
+         if (this == btn_rango[j]) {
+           indice = j;
+         }
        }
-     }
 
-     myLineChart.data.datasets[0].data[indice] = this.value; // Would update the first dataset's value of 'March' to be 50
-     myLineChart.update();
-   });
+       myLineChart.data.datasets[0].data[indice] = this.value; // Would update the first dataset's value of 'March' to be 50
+       myLineChart.update();
+     });
  }
