@@ -1,0 +1,18 @@
+Chart.js
+
+Getting Started
+
+General
+
+Configuration
+
+Chart Types
+
+Axes
+
+Developers
+
+
+https://www.chartjs.org/docs/latest/
+
+https://pixinvent.com/modern-admin-clean-bootstrap-4-dashboard-html-template/html/ltr/vertical-modern-menu-template/chartjs-pie-doughnut-charts.html

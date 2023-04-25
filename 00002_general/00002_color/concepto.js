@@ -126,6 +126,28 @@ elemento[1].addConcepto({
   Bcolor: "yellow",
   Backcolor: "green"
 });
+elemento[1].addConcepto({
+  color: "green",
+  Bcolor: "yellow",
+  Backcolor: "green"
+});
+elemento.push(new Concepto("Concepto"));
+
+elemento[2].addConcepto({
+  color: "red",
+  Bcolor: "green",
+  Backcolor: "red"
+});
+elemento[2].addConcepto({
+  color: "green",
+  Bcolor: "yellow",
+  Backcolor: "green"
+});
+elemento[2].addConcepto({
+  color: "green",
+  Bcolor: "yellow",
+  Backcolor: "green"
+});
 
 verelemento(elemento);
 // elemento.push(new Concepto("Concepto"));
